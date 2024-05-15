@@ -25,7 +25,7 @@ app.use("/api/v1/auth", authRoute);
 app.get("/", (req, res) => {
   res.status(200).json({
     status: true,
-    message: welcomeMessage,
+    message: welcomeMessage
   });
 });
 
